@@ -21,7 +21,7 @@ pm.test("Body matches string", function () {
 });
 ```
 ## Все тесты пройдены! 
-![](https:github.com/Ilya-Tsatsuro/Postman_HW_2/blob/main/:first.png?raw=true)
+![](https://github.com/Ilya-Tsatsuro/Postman_HW_2/blob/main/Screen/:first.png?raw=true)
 
 ---------
 
@@ -106,7 +106,7 @@ console.log("req_salary = " + typeof req_salary);  проверили тип п�
 console.log("resp_salary =  " + typeof jsonData.salary);  проверили тип переменной resp_salary.
 ```
 
-![](https:github.com/Ilya-Tsatsuro/Postman_HW_2/blob/main/typeof.png?raw=true)
+![](https://github.com/Ilya-Tsatsuro/Postman_HW_2/blob/main/Screen/typeof.png?raw=true)
 
 8. Проверить, что name в ответе равно name s request (name забрать из request).
 
@@ -141,7 +141,7 @@ pm.test("salary в ответе равно salary s request", function () {
 console.log(jsonData.family);
 ```
 
-![](https:github.com/Ilya-Tsatsuro/Postman_HW_2/blob/main/jsonData.family.png?raw=true)
+![](https://github.com/Ilya-Tsatsuro/Postman_HW_2/blob/main/Screen/Console_task_2.png?raw=true)
 
 12. Проверить что u_salary_1_5_year в ответе равно salary*4 (salary забрать из request).
 
@@ -153,7 +153,7 @@ pm.test("u_salary_1_5_year в ответе равно salary*4", function () {
 ```
 
 ## Все тесты пройдены! 
-![](https:github.com/Ilya-Tsatsuro/Postman_HW_2/blob/main/:user_info_3.png?raw=true)
+![](https://github.com/Ilya-Tsatsuro/Postman_HW_2/blob/main/Screen/:user_info_3.png?raw=true)
 
 -----------
 
@@ -220,7 +220,7 @@ pm.test("salary в ответе равно salary s request", function () {
 ```JS
 console.log(jsonData.family);
 ```
-![](https:github.com/Ilya-Tsatsuro/Postman_HW_2/blob/main/family_from_esponse.png?raw=true)
+![](https://github.com/Ilya-Tsatsuro/Postman_HW_2/blob/main/Screen/Console_task_3.png?raw=true)
 
 9. Проверить, что у параметра dog есть параметры name.
 
@@ -259,7 +259,7 @@ pm.test("параметр age имеет значение 4", function () {
 ```
 
 ## Все тесты пройдены!
-![](https:github.com/Ilya-Tsatsuro/Postman_HW_2/blob/main/:object_info_3.png?raw=true)
+![](https://github.com/Ilya-Tsatsuro/Postman_HW_2/blob/main/Screen/:object_info_3.png?raw=true)
 
 ------------
 
@@ -308,6 +308,7 @@ console.log("req_salary = " + typeof req_salary);  проверили тип п�
 
 console.log("resp_salary = " + typeof jsonData.salary);  проверили тип переменной resp_salary
 ```
+![](https://github.com/Ilya-Tsatsuro/Postman_HW_2/blob/main/Screen/typeof.png?raw=true)
 
  5. Проверить, что name в ответе равно name s request (name забрать из request).
 
@@ -352,7 +353,7 @@ console.log("1-й элемент параметра salary из response = " + j
 console.log("2-й элемент параметра salary из response = " + jsonData.salary[2]);
 ```
 
-![](https:github.com/Ilya-Tsatsuro/Postman_HW_2/blob/main/Consol_task_4.png?raw=true)
+![](https://github.com/Ilya-Tsatsuro/Postman_HW_2/blob/main/Screen/Console_task_4.png?raw=true)
 
  12. Проверить, что 0-й элемент параметра salary равен salary из request (salary забрать из request).
 
@@ -385,7 +386,7 @@ pm.test("2-й элемент параметра salary равен salary*3", fun
  16. Создать в окружении переменную age.
  17. Создать в окружении переменную salary.
  
-![](https:github.com/Ilya-Tsatsuro/Postman_HW_2/blob/main/Environments.png?raw=true)
+![](https://github.com/Ilya-Tsatsuro/Postman_HW_2/blob/main/Screen/Environment_task_4.png?raw=true)
 
  18. Передать в окружение переменную name.
 
@@ -405,10 +406,10 @@ pm.environment.set("salary", req_salary);
 ```JavaScript 
 for (salary of jsonData.salary) console.log(salary);
 ```
-![](https:github.com/Ilya-Tsatsuro/Postman_HW_2/blob/main/Consol_task_4.png?raw=true)
+![](https://github.com/Ilya-Tsatsuro/Postman_HW_2/blob/main/Screen/Console_task_4.png?raw=true)
 
 ## Все тесты пройдены!
-![](https:github.com/Ilya-Tsatsuro/Postman_HW_2/blob/main/:object_info_4.png?raw=true)
+![](https://github.com/Ilya-Tsatsuro/Postman_HW_2/blob/main/Screen/:object_info_4.png?raw=true)
 -------------
 
 ## Задание №5
@@ -417,7 +418,7 @@ for (salary of jsonData.salary) console.log(salary);
  2. Вставить параметр age из окружения в age.
  3. Вставить параметр name из окружения в name.
  
- ![](https://github.com/Ilya-Tsatsuro/Postman_HW_2/blob/main/Environment_task_5.png?raw=true)
+ ![](https://github.com/Ilya-Tsatsuro/Postman_HW_2/blob/main/Screen/Environment_task_5.png?raw=true)
 
  4. Отправить запрос методом POST на URL:http:162.55.220.72:5005/user_info_2.
 
@@ -585,9 +586,9 @@ pm.test("u_salary_5_years равен salary*4.2 из reques", function () {
 for (let key_value in jsonData.person) {
     console.log(key_value + ' = ' + jsonData.person[key_value])};
 ```
-![](https://github.com/Ilya-Tsatsuro/Postman_HW_2/blob/main/Console_task_5.png?raw=true)
+![](https://github.com/Ilya-Tsatsuro/Postman_HW_2/blob/main/Screen/Console_task_5.png?raw=true)
 
 ## Все тесты пройдены!
-![](https://github.com/Ilya-Tsatsuro/Postman_HW_2/blob/main/:user_info_2.png?raw=true)
+![](https://github.com/Ilya-Tsatsuro/Postman_HW_2/blob/main/Screen/:user_info_2.png?raw=true)
 
 --------
